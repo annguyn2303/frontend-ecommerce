@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://kit.fontawesome.com/3cd7b0f284.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css" />
+        <title>Homepage</title>
+    </head>
+    <body>
+        <div class="header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid row">
+                    <!-- Logo -->
+                    <a class="navbar-brand col-2" href="#">SoSo</a>
+                    <!-- mobile toggle but -->
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarResponsive"
+                        aria-controls="navbarResponsive"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="action col-8">
+                        <!-- Navitigation -->
+                        <div class="collapse navbar-collapse justify-content-around col-8" id="navbarResponsive">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="item-header" href="#">
+                                        <span>Daily health</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="item-header" href="#">
+                                        <span>Weight loss</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="item-header" href="#">
+                                        <span>Skin</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="item-header" href="#">
+                                        <span>Hair</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="item-header" href="#">
+                                        <span>Blogs</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="collapse navbar-collapse user col-4">
+                            <button class="btn-action">
+                                <span>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </button>
+                            <button class="btn-action">
+                                <span>
+                                    <i class="fa-regular fa-user"></i>
+                                </span>
+                            </button>
+                            <button class="btn-action">
+                                <span>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </span>
+                            </button>
+                            <button class="button">
+                                <span> Take a quiz </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container-fluid">
+            <div class="content content-intro">
+                <span class="text-content">Your unique blend for optimal health and wellness.</span>
+                <button class="button btn-quiz">Take a quiz - it's free</button>
+            </div>
+            <div class="content content-detail row justify-content-between">
+                <div class="col-4 item-content">
+                    <span class="icon"><i class="fa-regular fa-comments fa-2xl"></i></span>
+                    <div class="text-item">
+                        <h6>Your Supplement Quiz</h6>
+                        <p class="text-detail">
+                            Discover tailored results just for you in our quick 2-minute free quiz!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4 item-content">
+                    <span class="icon"><i class="fa-solid fa-gift fa-2xl"></i></span>
+                    <div class="text-item">
+                        <h6>Customized Recommendations</h6>
+                        <p class="text-detail">Find your perfect supplements based on your unique needs and goals!</p>
+                    </div>
+                </div>
+                <div class="col-4 item-content">
+                    <span class="icon"><i class="fa-regular fa-star fa-2xl"></i></span>
+                    <div class="text-item">
+                        <h6>Building Habits</h6>
+                        <p class="text-detail">
+                            Embark on your path to better health with expert guidance every step of the way
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid sell-content">
+                <div class="text-center">
+                    <h5 class="pb-3">#DESIGN FOR EVERYBODY</h5>
+                    <h1 class="pb-5">Discover your skin's perfect match.</h1>
+                </div>
+                <div class="row justify-content-center m-0 pb-4">
+                    <div class="col-3 text-center">
+                        <h5>Supplement Series</h5>
+                        <p class="text-muted">Your daily routine</p>
+                    </div>
+                    <div class="col-3 text-center">
+                        <h5>Must haves</h5>
+                        <p class="text-muted">Essential for holistic health</p>
+                    </div>
+                    <div class="col-3 text-center">
+                        <h5>Bundles & Kits</h5>
+                        <p class="text-muted">Packages for daily needs</p>
+                    </div>
+                    <div class="separate"></div>
+                </div>
+                <div class="container text-center slider">
+                    <div class="row justify-content-center">
+                        <div id="recipeCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="col-md-3">
+                                        <div class="description mt-5">
+                                            <div class="card-1">
+                                                <span>
+                                                    <p class="text-card">Find the perfect fit for you</p>
+                                                </span>
+                                                <button class="button-light">Take the quiz</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="description mt-5">
+                                            <div class="card-sell card-2">
+                                                <span>
+                                                    <p class="text-card">Multivitamin 18+</p>
+                                                    <p class="text-card-des">Personalized prescription skin care</p>
+                                                </span>
+                                                <button class="button-light">Add to cart - $12</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="description mt-5">
+                                            <div class="card-sell card-3">
+                                                <span>
+                                                    <p class="text-card">Vitamin B+</p>
+                                                    <p class="text-card-des">Personalized prescription skin care</p>
+                                                </span>
+                                                <button class="button-light">Add to cart - $14</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="description mt-5">
+                                            <div class="card-sell card-4">
+                                                <span>
+                                                    <p class="text-card">Vitamin C++</p>
+                                                    <p class="text-card-des">Personalized prescription skin care</p>
+                                                </span>
+                                                <button class="button-light">Add to cart - $15</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="description mt-5">
+                                            <div class="card-sell card-5">
+                                                <span>
+                                                    <p class="text-card">Vitamin A</p>
+                                                    <p class="text-card-des">Personalized prescription skin care</p>
+                                                </span>
+                                                <button class="button-light">Add to cart - $22</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="description mt-5">
+                                            <div class="card-sell card-6">
+                                                <span>
+                                                    <p class="text-card">Multivitamin E6</p>
+                                                    <p class="text-card-des">Personalized prescription skin care</p>
+                                                </span>
+                                                <button class="button-light">Add to cart - $18</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a
+                                class="carousel-control-prev bg-transparent w-aut"
+                                href="#recipeCarousel"
+                                role="button"
+                                data-bs-slide="prev"
+                            >
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </a>
+                            <a
+                                class="carousel-control-next bg-transparent w-aut"
+                                href="#recipeCarousel"
+                                role="button"
+                                data-bs-slide="next"
+                            >
+                                <span class="carousel-control-next-icon" aria-hidden="true"> </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid rating">
+                <h1 class="p-5 text-center">Treat yourself, because you deserve it.</h1>
+                <div class="row justify-content-around m-0">
+                    <div class="card-md col-3">
+                        <span class="icon">
+                            <i class="fa-solid fa-hand-holding-heart fa-xl"></i>
+                        </span>
+                        <p>Crafted with care to support your unique health needs</p>
+                    </div>
+                    <div class="card-md col-3">
+                        <span class="icon">
+                            <i class="fa-solid fa-seedling fa-xl"></i>
+                        </span>
+                        <p>100% vegan and cruelty-free supplements for a healthier you</p>
+                    </div>
+                    <div class="card-md col-3">
+                        <span class="icon">
+                            <i class="fa-brands fa-react fa-2xl"></i>
+                        </span>
+                        <p>Science-backed supplements for optimal health and wellness</p>
+                    </div>
+                    <div class="card-md col-3">
+                        <span class="icon">
+                            <i class="fa-solid fa-capsules fa-xl"></i>
+                        </span>
+                        <p>Experience the difference with our next-level supplements</p>
+                    </div>
+                </div>
+                <div class="text-center content-mid">
+                    <h3>#WOMEN TELL WOMEN</h3>
+                    <h1>Real people, real results</h1>
+                </div>
+                <div class="container-fluid m-0 p-5 row justify-content-between">
+                    <div class="card-ava col-3" style="background: #f6f7d4">
+                        <img class="ava-card-top" src="images/image-9.png" />
+                        <span class="card-rate-ava">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                        <p class="card-text-ava">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi id enim pulvinar
+                            suscipit. Praesent pretium orci non velit bibendum,
+                        </p>
+                        <p class="card-sign-ava">~ Anna Smith</p>
+                    </div>
+                    <div class="card-ava col-3" style="background: #ededf5; bottom: 55px">
+                        <img class="ava-card-bottom" src="images/image-9.png" />
+                        <span class="card-rate-ava">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                        <p class="card-text-ava">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi id enim pulvinar
+                            suscipit. Praesent pretium orci non velit bibendum,
+                        </p>
+                        <p class="card-sign-ava">~ Sara Jacob</p>
+                    </div>
+                    <div class="card-ava col-3" style="background: #fcf5ea">
+                        <img class="ava-card-top" src="images/image-9.png" />
+                        <span class="card-rate-ava">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                        <p class="card-text-ava">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi id enim pulvinar
+                            suscipit. Praesent pretium orci non velit bibendum,
+                        </p>
+                        <p class="card-sign-ava">~ Lara Zoe</p>
+                    </div>
+                </div>
+                <div class="container-fluid m-0 row justify-content-around" style="padding-top: 100px">
+                    <div class="card-ava col-4" style="background: #fcf5ea; top: 10px; margin-left: 100px">
+                        <img class="ava-card-top" src="images/image-9.png" />
+                        <span class="card-rate-ava">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <p class="card-text-ava">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi id enim pulvinar
+                            suscipit. Praesent pretium orci non velit bibendum,
+                        </p>
+                        <p class="card-sign-ava">~ Franklin Jackson</p>
+                    </div>
+                    <div class="card-ava col-4" style="background: #f6f7d4; margin-right: 100px; bottom: 80px">
+                        <img class="ava-card-bottom" src="images/image-9.png" />
+                        <span class="card-rate-ava">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                        <p class="card-text-ava">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi id enim pulvinar
+                            suscipit. Praesent pretium orci non velit bibendum,
+                        </p>
+                        <p class="card-sign-ava">~ Jane Klien</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid paticipate m-0">
+                <h1 class="join-text">Join the safe space of community!</h1>
+                <button class="button-light join-button">Join today - it's free</button>
+            </div>
+            <div class="container-fluid m-0 text-center quotes">
+                <div class="">
+                    <div class="d-inline-flex align-items-center">
+                        <h1 class="m-0">healthline</h1>
+                        <h3 class="m-0 pl-3">says</h3>
+                    </div>
+                </div>
+                <span class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="39" height="29" viewBox="0 0 39 29" fill="none">
+                        <path
+                            d="M8.39627 29C6.26029 29 4.32686 28.2252 2.59598 26.6756C0.865103 25.126 -0.000335693 22.6908 -0.000335693 19.3702C-0.000335693 16.5293 0.478418 13.8728 1.43593 11.4008C2.43026 8.92875 3.75604 6.73346 5.41326 4.81489C7.10731 2.85941 8.9855 1.25445 11.0478 0L14.2518 1.6603C13.5889 2.25064 12.7971 3.15458 11.8764 4.37214C10.9558 5.5528 10.1087 6.95483 9.33536 8.57824C8.59881 10.2017 8.1753 11.9542 8.06482 13.8359C10.2376 13.9466 12.0606 14.666 13.5337 15.9943C15.0436 17.3225 15.7985 19.0382 15.7985 21.1412C15.7985 23.5763 15.062 25.4949 13.5889 26.8969C12.1158 28.299 10.3849 29 8.39627 29ZM31.4869 29C29.3878 29 27.4728 28.2252 25.7419 26.6756C24.0478 25.126 23.2008 22.6908 23.2008 19.3702C23.2008 16.5293 23.6796 13.8728 24.6371 11.4008C25.6314 8.92875 26.9572 6.73346 28.6144 4.81489C30.2716 2.85941 32.113 1.25445 34.1385 0L37.3424 1.6603C36.6796 2.25064 35.8878 3.15458 34.9671 4.37214C34.0464 5.5528 33.2178 6.95483 32.4813 8.57824C31.7815 10.2017 31.3764 11.9542 31.266 13.8359C33.3651 13.9466 35.1696 14.666 36.6796 15.9943C38.2263 17.3225 38.9997 19.0382 38.9997 21.1412C38.9997 23.5763 38.2447 25.4949 36.7348 26.8969C35.2249 28.299 33.4756 29 31.4869 29Z"
+                            fill="#1C1C1C"
+                        />
+                    </svg>
+                </span>
+                <div class="text-center m-auto mt-4 mb-4">
+                    <h3 class="w-50 m-auto">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam rem aperiam.
+                    </h3>
+                </div>
+                <span>
+                    <i class="fa-regular fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
+                </span>
+            </div>
+            <div class="container-fluid article">
+                <div class="text-center">
+                    <h3>#Evidence-based Information</h3>
+                    <h1>The Science of Wellness</h1>
+                </div>
+                <div class="row justify-content-around m-5">
+                    <div class="card-article col-4">
+                        <div class="text-left article-text">
+                            <p>14 Supplements to Manage Your Cortisol Levels</p>
+                            <div class="d-flex text-left pt-3">
+                                <span class="pr-1">
+                                    <i class="fa-regular fa-clock"></i>
+                                </span>
+                                <p>5 mins read</p>
+                            </div>
+                        </div>
+                        <img class="img-article" src="images/image-11.jpg" />
+                    </div>
+                    <div class="card-article col-4">
+                        <div class="text-left article-text">
+                            <p>What are the Best Vitamins to Help Brain Fog? Experts Explain</p>
+                            <div class="d-flex text-left pt-3">
+                                <span class="pr-1">
+                                    <i class="fa-regular fa-clock"></i>
+                                </span>
+                                <p>3 mins read</p>
+                            </div>
+                        </div>
+                        <img class="img-article" src="images/image-12.jpg" />
+                    </div>
+                    <div class="card-article col-4">
+                        <div class="text-left article-text">
+                            <p>The Ultimate Guide to Superfoods, unlock your nutrition</p>
+                            <div class="d-flex text-left pt-3">
+                                <span class="pr-1">
+                                    <i class="fa-regular fa-clock"></i>
+                                </span>
+                                <p>6 mins read</p>
+                            </div>
+                        </div>
+                        <img class="img-article" src="images/image-13.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid help">
+                <div class="text-center">
+                    <h3>#All the help you need</h3>
+                    <h1>We know you are curious!</h1>
+                </div>
+                <div class="question m-auto">
+                    <div class="separate-ask">
+                        <button type="button" class="collapsible">
+                            How do I choose the right supplement for my needs?
+                            <i class="fa-solid fa-plus float-right"></i>
+                        </button>
+                        <div class="collapse-text">
+                            <p class="p-2 text-black-50 w-75">
+                                We offer a personalized quiz that takes into account your specific health goals, dietary
+                                preferences, and lifestyle factors. Based on your responses, we provide tailored
+                                recommendations to help you find the supplements that best suit your needs.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="separate-ask">
+                        <button type="button" class="collapsible">
+                            Can I take multiple supplements together?
+                            <i class="fa-solid fa-plus float-right"></i>
+                        </button>
+                        <div class="collapse-text">
+                            <p class="p-2 text-black-50 w-75">
+                                Yes, it is possible to take multiple supplements at once. However, combining several
+                                supplements or taking doses higher than recommended may increase the risk of harm, so
+                                it’s important to be aware of potential interactions.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="separate-ask">
+                        <button type="button" class="collapsible">
+                            Are your supplements suitable for vegetarians/vegans?
+                            <i class="fa-solid fa-plus float-right"></i>
+                        </button>
+                        <div class="collapse-text">
+                            <p class="p-2 text-black-50 w-75">
+                                Yes, some supplements are suitable for vegetarians and vegans. Vitamin B12 is one of the
+                                most important supplements for vegetarians and vegans. Foods often touted to be rich in
+                                vitamin B12 include unwashed organic produce, mushrooms grown in B12-rich soils, nori,
+                                spirulina, chlorella, and nutritional yeast
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex p-3 mt-4">
+                        <p>Still have questions?</p>
+                        <a href="#" class="fw-bold pl-2 text-black">Visit the FAQs page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid footer">
+                <div class="contact-info">
+                    <img class="img-footer info" src="images/image-15.png" />
+                    <div class="text-info-footer text-center">
+                        <h3>FOLLOW US</h3>
+                        <h1>Meet Our Community</h1>
+                        <h4>Join the @Soso and share your voice with us.</h4>
+                    </div>
+                    <div class="social">
+                        <div class="instagram internet-social d-flex">
+                            <span class="brand">
+                                <i class="fa-brands fa-instagram fa-2xl"></i>
+                            </span>
+                            <div>
+                                <h2>Instagram</h2>
+                                <h4>@SoSo</h4>
+                            </div>
+                        </div>
+                        <div class="tiktok internet-social d-flex">
+                            <span class="brand">
+                                <i class="fa-brands fa-tiktok fa-2xl"></i>
+                            </span>
+                            <div>
+                                <h2>Tiktok</h2>
+                                <h4>@SoSo</h4>
+                            </div>
+                        </div>
+                        <div class="twitter internet-social d-flex">
+                            <span class="brand">
+                                <i class="fa-brands fa-twitter fa-2xl"></i>
+                            </span>
+                            <div>
+                                <h2>Twitter</h2>
+                                <h4>@brand</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copy-right">
+                        <h4>© 2023 Brand, Inc. All rights reserved.</h4>
+                    </div>
+                </div>
+                <img class="img-footer float-right" src="images/image-14.png" />
+            </div>
+        </div>
+    </body>
+    <script src="/index.js"></script>
+</html>
