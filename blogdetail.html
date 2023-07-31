@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://kit.fontawesome.com/3cd7b0f284.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+        <title>SoSo - Article</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="header">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid row">
+                        <!-- Logo -->
+                        <a class="navbar-brand col-2" href="/homepage.html">SoSo</a>
+                        <!-- mobile toggle but -->
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarResponsive"
+                            aria-controls="navbarResponsive"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="action col-7">
+                            <!-- Navitigation -->
+                            <div class="collapse navbar-collapse justify-content-around" id="navbarResponsive">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="item-header" href="./dailyhealth.html">
+                                            <span>Daily health</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="item-header" href="#">
+                                            <span>Weight loss</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="item-header" href="#">
+                                            <span>Skin</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="item-header" href="#">
+                                            <span>Hair</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="item-header" href="./blog.html">
+                                            <span>Blogs</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="collapse navbar-collapse user col-2">
+                            <button class="btn-action">
+                                <span>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </button>
+                            <button class="btn-action">
+                                <span>
+                                    <i class="fa-regular fa-user"></i>
+                                </span>
+                            </button>
+                            <button class="btn-action">
+                                <span>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </span>
+                            </button>
+                            <button class="button">
+                                <span> Take a quiz </span>
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="container-fluid pt-5 detail">
+                <button onclick="topFunction()" id="myBtn" title="Go to top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <path
+                            d="M7 11.8125V2.1875"
+                            stroke="black"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                        <path
+                            d="M3.0625 6.125L7 2.1875L10.9375 6.125"
+                            stroke="black"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </button>
+                <p class="text-center fw-bold title">Blog Title</p>
+                <div class="author-detail d-flex">
+                    <img src="./images/vue-color-avatar 1.png" />
+                    <div>
+                        <p class="fw-bolder name">Husni Ramdani</p>
+                        <p>30 November 2021</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="5" viewBox="0 0 35 5" fill="none">
+                        <circle cx="2.5" cy="2.5" r="2.5" fill="black" />
+                        <circle cx="17.5" cy="2.5" r="2.5" fill="black" />
+                        <circle cx="32.5" cy="2.5" r="2.5" fill="black" />
+                    </svg>
+                </div>
+                <div class="container-fluid text-center mt-5 blog-detail">
+                    <img src="./images/Banner.png" class="text-center" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat pretium, mi sed id dui sed
+                        orci, tempor. Pellentesque egestas odio enim, accumsan, cursus. Fermentum in bibendum aliquet
+                        est viverra eu vitae in nibh. Leo, feugiat amet neque, quis. Amet, eget vulputate cursus in eu
+                        sit pulvinar et.
+                        <br />
+                        <br />
+                        Nibh at sem viverra pellentesque hac odio duis a. Urna vitae, at ac et rhoncus. Mauris sit
+                        accumsan vitae, nibh netus. In elementum pharetra in lacinia nibh. Non est eget egestas eu et
+                        purus amet. Vitae aliquam sit tincidunt pellentesque netus suspendisse vulputate. Dui justo, ac
+                        maecenas pharetra.
+                    </p>
+                </div>
+            </div>
+            <div class="footer d-flex">
+                <div class="contact-info">
+                    <img class="img-footer-1 info d-none d-sm-block" src="images/image-15.png" />
+                    <div class="text-info-footer text-center">
+                        <h3 class="follow">FOLLOW US</h3>
+                        <h1 class="follow">Meet Our Community</h1>
+                        <h4 class="follow">Join the @Soso and share your voice with us.</h4>
+                    </div>
+                    <div class="social text-center">
+                        <div class="instagram internet-social">
+                            <span class="brand">
+                                <i class="fa-brands fa-instagram fa-2xl"></i>
+                            </span>
+                            <div>
+                                <h2 class="address">Instagram</h2>
+                                <h4 class="address">@SoSo</h4>
+                            </div>
+                        </div>
+                        <div class="tiktok internet-social">
+                            <span class="brand">
+                                <i class="fa-brands fa-tiktok fa-2xl"></i>
+                            </span>
+                            <div>
+                                <h2 class="address">Tiktok</h2>
+                                <h4 class="address">@SoSo</h4>
+                            </div>
+                        </div>
+                        <div class="twitter internet-social">
+                            <span class="brand">
+                                <i class="fa-brands fa-twitter fa-2xl"></i>
+                            </span>
+                            <div>
+                                <h2 class="address">Twitter</h2>
+                                <h4 class="address">@brand</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copy-right">
+                        <h4 class="copy-right-font">© 2023 Brand, Inc. All rights reserved.</h4>
+                    </div>
+                </div>
+                <img class="img-footer-2 float-right d-none d-sm-block" src="images/image-14.png" />
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
